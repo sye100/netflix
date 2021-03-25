@@ -1,0 +1,1307 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero_bg_large.jpg") no-repeat center center;
+  background-size: cover;
+  border-bottom: 8px solid #444;
+}
+
+.hero_wrap {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.nav_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 56px;
+}
+
+.main_logo {
+  fill: #e50914;
+  line-height: normal;
+}
+
+#logo {
+  width: 167px;
+  height: 45px;
+  /* padding-top: 8px;  */
+}
+
+.bt_login {
+  width: 100px;
+  height: 40px;
+  background: rgb(229, 9, 20);
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.bt_join {
+  width: 150px;
+  height: 40px;
+  background: rgb(229, 9, 20);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+}
+
+.hero_title_wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 180px 0 0 0;
+}
+
+.hero_join_wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 200px 0 0 0;
+}
+
+/* 마진 주는건 위ㅔ서 아래로 약속하기  */
+.hero_title {
+  font-size: 72px;
+  line-height: 90px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero_sub_title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero_join_wrap {
+  text-align: center;
+}
+
+.hero_join_wrap p {
+  text-align: center;
+}
+
+.input_email {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  padding: 0 20px;
+  font-size: 12px;
+
+  margin-bottom: 20px;
+}
+
+/* Feature */
+
+#feature {
+  width: 100%;
+}
+
+.tv_wrap {
+  width: 100%;
+  border-bottom: 8px solid #222;
+  padding: 50px 0;
+}
+
+.tv {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+}
+
+.tv li {
+  width: 50%;
+  height: 450px;
+  position: relative;
+}
+.tv li:first-child {
+  display: flex;
+  /* 아래 두개가 바뀌면 세로 방향이 바뀐다 */
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 100px 0 0;
+}
+
+.tv_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.tv_sub_title {
+  font-size: 24px;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+.tv_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 600px;
+}
+.tv_video {
+  position: absolute;
+  top: 69px;
+  left: 70px;
+  z-index: 9;
+}
+
+/* Feature - Offline */
+
+.offline_wrap {
+  width: 100%;
+  padding: 50px 0;
+  border-bottom: 8px solid #222;
+}
+
+.offline {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  height: auto;
+}
+
+.offline_wrap li {
+  width: 50%;
+  height: 450px;
+  position: relative;
+}
+
+.offline li:first-child {
+  background: url(../img/mobile-0819.jpg);
+  background-size: cover;
+  background-position: center, center;
+}
+
+.offline li:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 50px;
+}
+
+.offline_img_box {
+  background: black;
+  border: 4px solid #222;
+  border-radius: 20px;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  margin: 300px auto;
+}
+
+.offline_img_1 {
+  width: 60px;
+}
+
+.offline_img_2 {
+  height: 60px;
+}
+
+.offline_img_text {
+  width: 150px;
+  text-align: left;
+}
+
+.offline_img_text span {
+  display: block;
+}
+.offline_img_text span:last-child {
+  color: rgb(0, 113, 245);
+}
+
+.offline_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.offline_sub_title {
+  font-size: 24px;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+/* Feature - device */
+
+.device_wrap {
+  width: 100%;
+  padding: 50px 0;
+  border-bottom: 8px solid #222;
+}
+
+.device {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.device_wrap li {
+  width: 50%;
+  height: 450px;
+  position: relative;
+}
+
+.device li:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 100px 0 0;
+}
+
+.device_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.device_sub_title {
+  font-size: 24px;
+  font-weight: 400;
+  word-break: keep-all;
+}
+
+.device_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 600px;
+}
+
+.device_video {
+  width: 60%;
+  position: absolute;
+  top: 85px;
+  left: 100px;
+  z-index: 9;
+}
+
+/* FAQ CSS */
+
+#faq {
+  position: relative;
+  width: 100%;
+  padding: 150px 0;
+  border-bottom: 8px solid #222;
+}
+
+.faq_wrap {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto 40px;
+}
+
+.faq_list {
+  width: 100%;
+  max-height: 60px;
+  /* 열릴때 360 */
+  overflow: hidden;
+  transition: max-height 0.4s;
+  margin: 0 0 2px;
+}
+
+.faq_title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.faq_list_title {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(48, 48, 48);
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+  margin: 0 0 2px;
+}
+
+.faq_list_desc {
+  /* display: none; */
+  width: 100%;
+  height: auto;
+  max-height: 600px; /* for animation */
+  background: rgb(48, 48, 48);
+  padding: 40px;
+  font-size: 20px;
+  word-break: keep-all;
+}
+
+.open_state_icon {
+  transition: all 0.4s;
+  color: rgb(205, 205, 205);
+}
+
+/* 
+    자바스크립트에서 rotate(45deg)로 돌려주고
+    해당 요소에 transition 주면 스르륵 된다.
+
+*/
+
+#faq_icon {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  border-radius: 45px;
+  border: 3px solid white;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 915px;
+  transition: all 1s;
+}
+
+.faq_join_wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+.faq_join_wrap p {
+  text-align: center;
+}
+
+.input_email {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  padding: 0 20px;
+  font-size: 12px;
+
+  margin-bottom: 20px;
+}
+
+.snowball {
+  position: fixed;
+  z-index: 200;
+  display: none;
+  width: 8px;
+  height: 8px;
+  background: rgb(255, 255, 255, 0.8);
+  border-radius: 4px;
+}
+
+@keyframes fade_in_opacity {
+  0% {
+    opacity: 0;
+    padding-top: 150px;
+  }
+  100% {
+    opacity: 1;
+    padding-top: 0;
+  }
+}
+
+/* for scroll Animation */
+
+#tv_text_li,
+#offline_text_li,
+#device_text_li {
+  opacity: 0;
+}
+#scroll_position {
+  position: fixed;
+  z-index: 9999;
+  left: 100;
+  top: 100;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  color: red;
+}
+
+/* Footer style */
+
+.footer {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.footer_wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer_menu {
+  /* 선생님이 한거는 패딩 푸터에 40 넣ㅇ주기만 해도 됐는데 왜 여기다 줘야 되는거지.. */
+  padding: 40px 0 0 0;
+  margin: 0 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_menu ul {
+  width: 20%;
+  list-style: none;
+}
+
+.footer_menu ul li {
+  margin: 0 0 10px 0;
+}
+
+.footer_menu ul li a {
+  font-size: 14px;
+  color: rgb(200, 200, 200);
+}
+
+.footer_address {
+  width: 100%;
+}
+
+.contact {
+  width: 100%;
+  padding: 0 0 10px;
+  border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+}
+
+.company_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.site_info {
+  width: 100%;
+  font-size: 12px;
+}
+
+/* 반응형 스타일 */
+
+@media screen and (max-width: 900px) and (max-height: 479px) {
+  #hero {
+    height: auto;
+  }
+  .hero_wrap {
+    height: auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .nav_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+
+  .main_logo {
+    width: 88px;
+    color: rgb(229, 9, 20);
+    fill: rgb(229, 9, 20);
+  }
+
+  .bt_login {
+    height: 24px;
+    width: 60px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  #hero {
+    height: auto;
+  }
+
+  .hero_wrap {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.85) 90%
+    );
+  }
+
+  .hero_title_wrap {
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
+
+  .hero_title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .hero_subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .hero_join_wrap {
+    width: 280px;
+    padding: 20px 0 0 0;
+  }
+  .hero_join_wrap p:last-child {
+    padding-bottom: 100px;
+  }
+
+  .hero_join_wrap p {
+    margin-top: 20px;
+  }
+  .hero_join_wrap p br {
+    display: block;
+  }
+
+  .tv_wrap {
+    height: auto;
+    padding: 50px 0;
+  }
+  .tv {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .tv li {
+    width: 100%;
+  }
+
+  .tv_img {
+    top: 0px;
+    width: 90%;
+    left: 5%;
+  }
+  .tv_video {
+    top: 50px;
+    left: 16%;
+    width: 72%;
+  }
+  .tv li:first-child {
+    padding: 50px 20px 0;
+    height: auto;
+    align-items: center;
+  }
+
+  .tv_title {
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .tv_subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .tv li:last-child {
+    height: 500px;
+    padding: 0 50px;
+  }
+
+  /* Feature - Offline */
+
+  .offline_wrap {
+    padding: 50px 0 0;
+  }
+  .offline {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .offline li {
+    width: 100%;
+  }
+
+  .offline li:first-child {
+    padding: 50px 0px;
+    background-position: center -20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .offline li:last-child {
+    height: auto;
+    padding: 50px 50px;
+  }
+
+  .offline_img_box {
+    width: 60%;
+    height: 100px;
+    margin: 250px auto;
+  }
+
+  .offline_title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .offline_subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  /* Feature Device */
+
+  .device_wrap {
+    padding-bottom: 50px;
+  }
+  .device {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .device li {
+    width: 100%;
+  }
+
+  .device li:first-child {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    padding: 0 50px;
+  }
+
+  .device li:last-child {
+    height: 450px;
+  }
+
+  .device_title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .device_subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .device_img {
+    left: 10%;
+    width: 80%;
+  }
+  .device_video {
+    left: 25%;
+    width: 50.66667%;
+    top: 40px;
+  }
+
+  /* FAQ CSS */
+
+  .faq_wrap {
+    width: calc(100% - 60px);
+  }
+  .faq_title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .faq_list_title {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 20px;
+  }
+
+  /* .faq_list { width: 100%; max-height: 60px; margin: 0 0 20px; overflow: hidden; transition: max-height 0.4s; } */
+
+  .faq_list_answer {
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    word-break: keep-all;
+  }
+
+  .hero_join_wrap {
+    width: 100%;
+  }
+
+  .faq_join_wrap {
+    width: 100%;
+  }
+
+  .faq_join_wrap p {
+    margin-top: 20px;
+  }
+  .faq_join_wrap p br {
+    display: block;
+  }
+
+  /* Footer Style */
+
+  footer {
+    width: 100%;
+    padding: 40px 30px;
+  }
+  .footer_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer_menu {
+    flex-wrap: wrap;
+  }
+  .footer_menu ul {
+    width: 20%;
+  }
+  .footer_menu ul li a {
+    font-size: 12px;
+  }
+  .contact {
+    font-size: 12px;
+  }
+  .company_info {
+    font-size: 12px;
+    display: block;
+  }
+  .company_info span {
+    display: block;
+    line-height: 24px;
+  }
+
+  .input_email {
+    border-radius: 4px;
+    margin: 0 0 10px;
+  }
+  .bt_join {
+    border-radius: 4px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  body {
+    font-size: 14px;
+  }
+
+  .nav_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+
+  .main_logo {
+    width: 88px;
+    color: rgb(229, 9, 20);
+    fill: rgb(229, 9, 20);
+  }
+
+  .bt_login {
+    height: 24px;
+    width: 60px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  #hero {
+    height: auto;
+  }
+
+  .hero_wrap {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.85) 90%
+    );
+  }
+
+  .hero_title_wrap {
+    width: 100%;
+    padding: 100px 0 0 0;
+  }
+
+  .hero_title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .hero_subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .hero_join_wrap {
+    width: 280px;
+    padding: 60px 0 0 0;
+  }
+  .hero_join_wrap p:last-child {
+    padding-bottom: 100px;
+  }
+
+  .hero_join_wrap p {
+    margin-top: 20px;
+  }
+  .hero_join_wrap p br {
+    display: block;
+  }
+
+  .tv_wrap {
+    height: auto;
+    padding: 50px 0;
+  }
+  .tv {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .tv li {
+    width: 100%;
+  }
+
+  .tv_img {
+    top: 0px;
+    width: 90%;
+    left: 5%;
+  }
+  .tv_video {
+    top: 50px;
+    left: 16%;
+    width: 72%;
+  }
+  .tv li:first-child {
+    padding: 50px 20px 0;
+    height: auto;
+    align-items: center;
+  }
+
+  .tv_title {
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .tv_subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .tv li:last-child {
+    height: 300px;
+    padding: 0 50px;
+  }
+
+  /* Feature - Offline */
+
+  .offline_wrap {
+    padding: 50px 0 0;
+  }
+  .offline {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .offline li {
+    width: 100%;
+  }
+
+  .offline li:first-child {
+    padding: 50px 0px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: 120%;
+  }
+
+  .offline li:last-child {
+    height: auto;
+    padding: 50px 20px;
+  }
+
+  .offline_img_box {
+    width: 80%;
+    height: 100px;
+    margin: 150px auto;
+  }
+
+  .offline_title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .offline_subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  /* Feature Device */
+
+  .device_wrap {
+    padding-bottom: 50px;
+  }
+  .device {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .device li {
+    width: 100%;
+  }
+
+  .device li:first-child {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    padding: 0 20px;
+  }
+
+  .device li:last-child {
+    height: 200px;
+  }
+
+  .device_title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .device_subtitle {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .device_img {
+    left: 10%;
+    width: 80%;
+  }
+  .device_video {
+    left: 25%;
+    width: 50.66667%;
+    top: 20px;
+  }
+
+  /* FAQ CSS */
+
+  .faq_wrap {
+    width: calc(100% - 40px);
+  }
+  .faq_title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .faq_list_title {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 10px;
+  }
+
+  /* .faq_list { width: 100%; max-height: 60px; margin: 0 0 20px; overflow: hidden; transition: max-height 0.4s; } */
+
+  .faq_list_answer {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    word-break: keep-all;
+  }
+
+  .hero_join_wrap {
+    width: 100%;
+  }
+
+  .faq_join_wrap {
+    width: 100%;
+  }
+
+  .faq_join_wrap p {
+    margin-top: 20px;
+  }
+  .faq_join_wrap p br {
+    display: block;
+  }
+
+  /* Footer Style */
+
+  footer {
+    width: 100%;
+    padding: 40px 30px;
+  }
+  .footer_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .footer_menu {
+    flex-wrap: wrap;
+  }
+  .footer_menu ul {
+    width: 50%;
+  }
+
+  .contact {
+    font-size: 12px;
+  }
+  .company_info {
+    font-size: 12px;
+    display: block;
+  }
+  .company_info span {
+    display: block;
+    line-height: 24px;
+  }
+
+  .input_email {
+    border-radius: 4px;
+    margin: 0 0 10px;
+  }
+  .bt_join {
+    border-radius: 4px;
+  }
+}
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+  .tv {
+    width: 100%;
+  }
+
+  .tv_img {
+    top: 20px;
+    width: 100%;
+  }
+
+  .tv_video {
+    top: 90px;
+    left: 13.333%;
+    width: 80%;
+  }
+
+  .tv li:first-child {
+    padding: 0 50px;
+  }
+
+  /* Feature - Offline */
+
+  .offline {
+    width: 100%;
+  }
+
+  .offline li:first-child {
+    padding: 0 50px;
+  }
+
+  .offline li:last-child {
+    padding: 0 25px;
+  }
+
+  /* Feature - device */
+
+  .device {
+    width: 100%;
+  }
+
+  .device_img {
+    width: 100%;
+    top: 20px;
+  }
+
+  .device_video {
+    /* // 600 rlwnsdmfh s나누기 380 63.333 */
+    width: 70%;
+    left: 16.6667%;
+    top: 70px;
+  }
+
+  /* FAQ CSS */
+
+  .faq_wrap {
+    width: 930px;
+  }
+
+  /* Footer style */
+
+  .footer {
+    width: 100%;
+    padding: 40px 30px;
+  }
+
+  .footer_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* 768, 800 */
+@media screen and (min-width: 320px) and (max-width: 949px) {
+  .hero_title_wrap {
+    width: 100%;
+  }
+
+  .tv {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .tv li {
+    width: 100%;
+  }
+
+  .tv_img {
+    top: 0;
+    width: 80%;
+    left: 10%;
+  }
+  .tv_video {
+    top: 88px;
+    left: 13.333%;
+    width: 80%;
+  }
+
+  .tv li:first-child {
+    padding: 50px 50px 0;
+    height: auto;
+    align-items: center;
+  }
+
+  .tv_title {
+    text-align: center;
+  }
+
+  .tv_sub_title {
+    text-align: center;
+  }
+
+  /* Feature - Offline */
+  .offline_wrap {
+    padding: 50px 0 0;
+  }
+
+  .offline {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  .offline_wrap li {
+    width: 100%;
+  }
+
+  .offline li:first-child {
+    background-position: center center;
+    padding: 0 50px;
+  }
+
+  .offline li:last-child {
+    height: auto;
+    padding: 50px 50px;
+  }
+
+  .offline_img_box {
+    width: 70%;
+    height: 100px;
+    margin: 250px auto;
+  }
+
+  .offline_img_1 {
+  }
+
+  .offline_img_2 {
+  }
+
+  .offline_img_text {
+  }
+
+  .offline_img_text span {
+  }
+  .offline_img_text span:last-child {
+  }
+
+  .offline_title {
+    text-align: center;
+  }
+
+  .offline_sub_title {
+    text-align: center;
+  }
+
+  /* Feature - device */
+
+  .device_wrap {
+    padding-bottom: 50px;
+  }
+
+  .device {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .device_wrap li {
+    width: 100%;
+  }
+
+  .device li {
+    width: 100%;
+  }
+
+  .device li:first-child {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    padding: 0 50px 0 0;
+  }
+
+  .device_title {
+    text-align: center;
+  }
+
+  .device_sub_title {
+    text-align: center;
+  }
+
+  .device_img {
+    left: 10%;
+    width: 80%;
+  }
+
+  .device_video {
+    width: 50.66667%;
+    left: 25;
+  }
+
+  /* FAQ CSS */
+  #faq_wrap {
+    width: calc(100% - 60px);
+  }
+  #faq {
+    position: relative;
+    width: 100%;
+    padding: 150px 0;
+    border-bottom: 8px solid #222;
+  }
+  .hero_join_wrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0 0 0;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contact {
+    width: 100%;
+    font-size: 12px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+  }
+
+  .company_info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 10px 0;
+  }
+}
